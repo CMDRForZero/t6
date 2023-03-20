@@ -1,0 +1,6 @@
+graph {
+	node[fontsize=10,margin=0,width=".4", height=".3"];
+	subgraph cluster17{
+		nnode_1[label="SUB"];
+	}
+}

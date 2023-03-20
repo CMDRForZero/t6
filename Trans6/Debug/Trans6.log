@@ -1,0 +1,10 @@
+﻿  main.cpp
+  parser.cpp
+  Создание кода...
+D:\Трансляторы\trans\Trans6\parser.cpp(72): warning C4715: Parser::e: значение возвращается не при всех путях выполнения
+D:\Трансляторы\trans\Trans6\parser.cpp(99): warning C4715: Parser::r: значение возвращается не при всех путях выполнения
+D:\Трансляторы\trans\Trans6\parser.cpp(89): warning C4715: Parser::e_: значение возвращается не при всех путях выполнения
+D:\Трансляторы\trans\Trans6\parser.cpp(109): warning C4715: Parser::t: значение возвращается не при всех путях выполнения
+D:\Трансляторы\trans\Trans6\parser.cpp(136): warning C4715: Parser::t_: значение возвращается не при всех путях выполнения
+D:\Трансляторы\trans\Trans6\parser.cpp(146): warning C4715: Parser::s: значение возвращается не при всех путях выполнения
+  Trans6.vcxproj -> D:\Трансляторы\trans\Trans6\Debug\Trans6.exe
