@@ -15,7 +15,6 @@
 #include <iostream>
 #include <fstream>
 #include <stack>
-#include "ASTree.hpp"
 
 #define I 254
 #define SUB 255
@@ -44,7 +43,6 @@ private:
     int symbol;
     int value;
     int buf;
-    bool flag;
     int prevalue;
 };
 

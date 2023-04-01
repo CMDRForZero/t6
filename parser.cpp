@@ -1,7 +1,7 @@
 #include "parser.hpp"
 
 Parser::Parser()
-    : buf(-1), value(0), symbol(0), flag(1), prevalue(0)
+    : buf(-1), value(0), symbol(0), prevalue(0)
 {
 }
 
@@ -149,8 +149,9 @@ int Parser::f() {
         return symbol;
     }
     else if (symbol == I) {
-
-        return symbol;
+        prevalue = value;
+        symbol = scan();
+        return value;
     }
     else {
         error("Invalid input ..");
